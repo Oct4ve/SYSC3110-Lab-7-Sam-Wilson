@@ -1,6 +1,6 @@
 public class ResidentialSite extends Site{
     public ResidentialSite(String named){
-        this.name = named;
+        this.siteName = named;
     }
     @Override
     public double getBillableAmount(int _units, double _rate){

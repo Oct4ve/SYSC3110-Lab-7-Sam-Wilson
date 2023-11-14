@@ -1,6 +1,6 @@
 public class LifelineSite extends Site{
     public LifelineSite(String named){
-        this.name = named;
+        this.siteName = named;
     }
     @Override
     public double getBillableAmount(int _units, double _rate) {
