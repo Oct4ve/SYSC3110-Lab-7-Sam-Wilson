@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SYSC3110 Lab 7:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SYSC3110_Lab_7_jar</output-path>
+    <root id="archive" name="SYSC3110 Lab 7.jar">
+      <element id="module-output" name="SYSC3110 Lab 7" />
+      <element id="module-source" name="SYSC3110 Lab 7" />
+    </root>
+  </artifact>
+</component>
