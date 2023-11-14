@@ -8,4 +8,12 @@ public class ResidentialSite extends Site{
         double tax = base * Site.TAX_RATE;
         return base + tax;
     }
+    @Override
+    protected double getBaseAmount(int _units, double _rate){
+        return _units * _rate;
+    }
+    @Override
+    protected double getTaxAmount(double base){
+        return base * Site.TAX_RATE;
+    }
 }
