@@ -1,9 +1,13 @@
 abstract class Site {
     public String siteName;
+    protected int _units;
+    protected double _rate;
     public static double TAX_RATE = 1.13;
-    abstract double getBillableAmount(int _units, double _rate);
-    abstract double getBaseAmount(int _units, double _rate);
-    abstract double getTaxAmount(double base);
+    public double getBillableAmount(){
+        return getBaseAmount() + getTaxAmount();
+    }
+    abstract double getBaseAmount();
+    abstract double getTaxAmount();
     public String getSiteName(){
         return siteName;
     }
