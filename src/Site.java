@@ -11,4 +11,19 @@ abstract class Site {
     public String getSiteName(){
         return siteName;
     }
+    public int getUnits(){
+        return _units;
+    }
+    public double getRate(){
+        return _rate;
+    }
+    public void setSiteName(String newname){
+        siteName = newname;
+    }
+    public void setUnits(int newunits){
+        _units = newunits;
+    }
+    public void setRate(double newrate){
+        _rate = newrate;
+    }
 }
